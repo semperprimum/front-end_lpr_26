@@ -1,5 +1,5 @@
 <template>
-  <div class="donates-container">
+  <div class="donates-container__donates">
     <div class="donate-item" v-for="donate in donates" :key="donate.id">
       {{ donate.date }} <b>${{ donate.amount }}</b>
     </div>
